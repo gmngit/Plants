@@ -213,7 +213,7 @@ callUs.forEach(item => {
 function calling() {    
 
     callUs.forEach(item => {
-        item.innerHTML = `<span>Звоним...Подождите...</span>`;
+        item.innerHTML = `<span>Wait...</span>`;
         this.append();
     });
 }
